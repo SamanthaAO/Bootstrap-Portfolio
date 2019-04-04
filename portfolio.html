@@ -8,93 +8,88 @@
     <link rel="stylesheet" type="text/css" href="style.css">
 
     <title>Portfolio - Samantha Orcutt</title>
-    <style>
-            div {border: 2px solid green;}
-            .container-fluid {border: 2px solid blue;}
-             {border: 2px solid pink;}
-        </style>
-</head>
-<body class="container-fluid">
-    <header> 
-        <div class="container">
-            <nav class="navbar navbar-expand-lg navbar-light py-0 row">
-                <h1 class="navbar-text float-left col-sm-5 mb-0">
-                    Samantha Orcutt
-                </h1>
-                
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarText">
-                    <ul class="navbar-nav ml-auto float-rightcol-sm-6">
-                        <li class="nav-item">
-                        <a class="nav-link" href="index.html">About</a>
-                        </li>
-                        <li class="nav-item">
-                        <a class="nav-link" href="portfolio.html" id="portfolio">Portfolio</a>
-                        </li>
-                        <li class="nav-item active">
-                        <a class="nav-link" href="contact.html">Contact<span class="sr-only">(current)</span></a>
-                        </li>
-                    </ul>
-                
-                </div>
-            </nav>
-        </div>
-    </header> 
 
-   <div class="container">
+</head>
+<body class="h-100 ">
+        <header> 
+            <div class="container">
+                <nav class="navbar navbar-expand-lg navbar-light py-0 row">
+                    <h1 class="navbar-text float-left col-sm-5 mb-0">
+                        Samantha Orcutt
+                    </h1>
+                    
+                    <button class="navbar-toggler  mx-auto" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarText">
+                        <ul class="navbar-nav ml-auto float-rightcol-sm-6">
+                            <li class="nav-item">
+                            <a class="nav-link" href="index.html">About</a>
+                            </li>
+                            <li class="nav-item active border-left border-right border-dark">
+                            <a class="nav-link" href="portfolio.html" id="portfolio">Portfolio<span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                            </li>
+                        </ul>
+                    
+                    </div>
+                </nav>
+            </div>
+        </header>
+
+        <div class="container justify-content-center mt-5 mb-5 border border-dark" id="content_container">
        
             <div class="row">
-                <h2>Portfolio</h2>
+                <h2 class="col-sm-12 border-bottom p-2">Portfolio</h2>
             </div>
 
             <div class="row">
-                <div class="portfolio_tile col-sm-4 d-inline">
-                    <img src="http://lorempixel.com/300/250/animals/7">
-                        <div class="portfolio_text">Hangman</div>
+                <div class="card text-white col-sm-4 d-inline border-0 p-3">
+                    <img src="http://lorempixel.com/300/250/animals/7" class="card-img" alt="...">
+                    <div class="card-img-overlay h-100 d-flex flex-column justify-content-end">
+                        <h5 class="card-title text-center p-3">Hangman</h5>
+                    </div>
                 </div>
-
-                <div class="portfolio_tile col-sm-4 d-inline">
-                    <img src="http://lorempixel.com/300/250/animals/2">
-                        <div class="portfolio_text">RPG Game</div>
-                </div>
-                <div class="col-sm-4 d-inline"></div>
-            </div>
-
-            <div class="row">
-                <div class="portfolio_tile col-sm-4 d-inline">
-                    <img src="http://lorempixel.com/300/250/animals/8">
-                        <div class="portfolio_text">Trivia Game</div>
-                </div>
-
-                <div class="portfolio_tile col-sm-4 d-inline">
-                    <img src="http://lorempixel.com/300/250/animals/4">
-                        <div class="portfolio_text">Rutgers Info Widget</div>
-                </div>
-            </div>
-            <div class="col-sm-4 d-inline"></div>
             
-            
-            <div class="row">
-                <div class="portfolio_tile col-sm-4">
-                    <img src="http://lorempixel.com/300/250/cats/5">
-                        <div class="portfolio_text">Rock Paper Scissors</div>
+                <div class="card text-white col-sm-4 d-inline border-0 p-3">
+                    <img src="http://lorempixel.com/300/250/animals/7" class="card-img" alt="...">
+                    <div class="card-img-overlay h-100 d-flex flex-column justify-content-end">
+                        <h5 class="card-title text-center p-3">RPG Game</h5>
+                    </div>
                 </div>
             </div>
-            <div class="col-sm-4"></div>
-        </div>
-        <div class="col-sm-4"></div>
+
+            <div class="row">
+                <div class="card text-white col-sm-4 d-inline border-0 p-3">
+                    <img src="http://lorempixel.com/300/250/animals/7" class="card-img" alt="...">
+                    <div class="card-img-overlay h-100 d-flex flex-column justify-content-end">
+                        <h5 class="card-title text-center p-3">Trivia Game</h5>
+                    </div>
+                </div>
+            
+                <div class="card text-white col-sm-4 d-inline border-0 p-3">
+                    <img src="http://lorempixel.com/300/250/animals/7" class="card-img" alt="...">
+                    <div class="card-img-overlay h-100 d-flex flex-column justify-content-end">
+                        <h5 class="card-title text-center p-3">Rutgers Info Widget</h5>
+                    </div>
+                </div>
             </div>
+
+            <div class="row">
+                <div class="card text-white col-sm-4 d-inline border-0 p-3">
+                    <img src="http://lorempixel.com/300/250/animals/7" class="card-img" alt="...">
+                    <div class="card-img-overlay h-100 d-flex flex-column justify-content-end">
+                        <h5 class="card-title text-center p-3">Rock Paper Scissors</h5>
+                    </div>
+                </div>
+            </div>
+
         </div>
-    </div>
-
-
-   <footer class="navbar navbar-fixed-bottom">
-        <div class="container text-center">
-              <div class="col-sm-12">Copyright &copy</div>
-
-        </div>
+            
+    <footer class="w-auto pb-0 pt-5 m-0 text-center">
+        <div id="copyright">Copyright &copy</div>
     </footer>
     
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
