@@ -1,7 +1,15 @@
 html, body {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     background-image: url("grey.png");  
+
 }
+
+body {
+    height: calc(100vh - 66px - 63px);
+}
+
+
+
 
 /*header*/
 
@@ -48,6 +56,29 @@ footer {
     border-top: 7px solid #4aaaa5;
     background-color: #666666;
 }
+
+.animation {
+    width: 10%;
+    height: 100px;
+    background-color: red;
+    animation: box 20s ease 1s infinite alternate;
+    position: relative;
+
+}
+
+@keyframes box {
+    17%  {background-color: red;}
+    34%  {background-color: orange;}
+    51%  {background-color: yellow;}
+    68%  {background-color: green;}
+    85% {background-color: blue;}
+    100% {background-color: purple;}
+    from {left: 0;}
+    to {left: 90%;}
+}
+
+
+
 
 
 
