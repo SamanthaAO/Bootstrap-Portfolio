@@ -4,6 +4,8 @@ html, body {
 
 }
 
+
+/* tried the thing that garret showed me still is not quite working.... I know how to fix it inthe other assignement but not through using bootstrap :/ */
 body {
     height: calc(100vh - 66px - 63px);
 }
